@@ -56,7 +56,6 @@ def part_two():
 
 
 def main():
-    #part_one()
     print(f"Part one: { part_one() }")
     print(f"Part two: { part_two() }")
 
