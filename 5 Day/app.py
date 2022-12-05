@@ -5,8 +5,7 @@ def move(count, start, finish, array):
 
 
 def move_two(count, start, finish, array):
-    array_tmp = [] #array[start] + array[finish]
-    #array[finish] = array_tmp
+    array_tmp = []
     
     for i in range(0, count):
         array_tmp.append(array[start].pop(0))
